@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+
+<div class="topnav">
+ <a> Photogur: Host your photos here. </a>
+</div>
+
   <head>
     <title>PhotoApp</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -8,9 +13,19 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
   </head>
-
+  <div class="content">
+  <br><br><br><br><br><br>
+  <br>
   <body>
     <%= yield %>
+    <br><br><br>
+</div>
+
   </body>
+  <div class="footer">
+  <p>A photo hosting website by Elisa Turner, Brion Alken, and Vladimir Joseph</p>
+</div>
+
 </html>

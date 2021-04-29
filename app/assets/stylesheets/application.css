@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+ body, p, ol, ul, td {
+    background-color: #ffc9b9;            
+    text-align: center;
+    
+}
+
+a {
+    font-family: Papyrus;         
+    font-size: 30px;                    
+}
+
+a:link {             
+    color: #3b1f2b;
+}
+a:hover {
+    color:white;
+}
+a:visited {
+    color:#14453d;
+}
+
+
+h1{                  
+ 
+   color:#14453d
+}
+
+.footer {
+    background-color: #ffc9b9;
+    padding: 10px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+
+ 
