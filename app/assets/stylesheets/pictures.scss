@@ -1,3 +1,58 @@
 // Place all the styles related to the Pictures controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+    background-color: Black;            
+    text-align: center;
+    
+}
+
+a {
+    color: white;
+    font-family: Papyrus;         
+    font-size: 30px;                    
+}
+
+a:link {             
+    color: white;
+}
+a:hover {
+    color:white;
+}
+a:visited {
+    color:white;
+}
+
+
+h1{                  
+ 
+   color:White;
+}
+
+.footer {
+    background-color: black;
+    padding: 10px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://riponmedia.com/wp-content/uploads/2015/07/Photograph-website-header-photography-film-picture-wordpress-header-2708a.jpg");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+  }
+
+  .field input {
+    background-color: white;
+  }
+
+  .field textarea {
+    background-color: white;
+  }
+  
