@@ -18,6 +18,7 @@
     background-color: Black;            
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://riponmedia.com/wp-content/uploads/2015/07/Photograph-website-header-photography-film-picture-wordpress-header-2708a.jpg");
+    color:white;
 }
 
 a {
@@ -43,7 +44,7 @@ h1{
 }
 
 .footer {
-    background-color: black;
+    background-color: grey;
     padding: 10px;
     position:fixed;
     bottom:0;
